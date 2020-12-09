@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.LogIn.Login"
+             BackgroundColor="#909090">
+    <ContentPage.Content >
+        <AbsoluteLayout>
+            <Image Source="nicebike.jpg" Aspect="Fill"></Image>
+            <Frame BackgroundColor="#44000000" Margin="15">
+                <StackLayout  Orientation="Vertical" BackgroundColor="#00825526" Padding="10" >
+                <Frame BackgroundColor="#a18594" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" CornerRadius="7">
+                    <Label Text="GLOBAL MOUNTAINBIKE" FontSize="40"></Label>
+                </Frame>
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    
+                    <Label  Text="Username" HorizontalOptions="Center" FontSize="20"></Label>
+                    <Entry x:Name="InputUserName" TextColor="White"></Entry>
+                    <Label  Text="Password" HorizontalOptions="Center" FontSize="20"></Label>
+                        <Entry  x:Name="InputPassword" TextColor="White"></Entry>
+
+                    <Button x:Name="SubmitButton" Text="Submit" BackgroundColor="#a18594" TextColor="White"></Button>
+
+                    <Frame BackgroundColor="#a18594">
+                        <StackLayout x:Name="NewAccount">
+                            <Label Text="No Account?" FontSize="13" HorizontalOptions="Center"></Label>
+                            <Label Text="No Problem!" FontSize="13" HorizontalOptions="Center"></Label>
+                        </StackLayout>
+                        
+                    </Frame>
+                </StackLayout>
+                
+            </StackLayout>
+        </Frame>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage"
+             BackgroundColor="#eaeaea"
+             xmlns:app="clr-namespace:App1">
+
+    <Grid x:Name="AppFrame">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="0.7*"/>
+        </Grid.RowDefinitions>
+
+        <Frame Grid.Row="0" BackgroundColor="#303030" CornerRadius="0">
+            <StackLayout Orientation="Horizontal">
+                <ImageButton x:Name="HeaderButtonSettings" 
+                             Source="HeaderButtonSettings.png" 
+                             HorizontalOptions="StartAndExpand"
+                             BackgroundColor="White">
+                </ImageButton>
+                <Label x:Name="Head" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="#fafafa" FontSize="20"/>
+                <ImageButton x:Name="HeaderButtonProfile" 
+                             Source="HeaderButtonProfile.png" 
+                             HorizontalOptions="EndAndExpand"
+                             BackgroundColor="White">
+                </ImageButton>
+            </StackLayout>
+            
+        </Frame>
+        
+        <ScrollView Grid.Row="1" x:Name="ShowPosts" Orientation="Vertical" VerticalScrollBarVisibility="Always">
+            <StackLayout x:Name="Posts" Orientation="Vertical">
+                <!--All the Posts will be displayed here-->
+            </StackLayout>
+        </ScrollView>
+
+        <StackLayout Grid.Row="2" Orientation="Horizontal" BackgroundColor="#303030" Padding="10" >
+            <ImageButton x:Name="MenuButtonTrail"
+                         HorizontalOptions="StartAndExpand" 
+                         Source="MenuButtonTrail.png" 
+                         CornerRadius="10" 
+                         HeightRequest="60" 
+                         WidthRequest="60" 
+                         BackgroundColor="White">
+            </ImageButton>
+            
+            <ImageButton x:Name="MenuButtonAdd"
+                         HorizontalOptions="CenterAndExpand"
+                         Source="MenuButtonAdd.png" 
+                         CornerRadius="10" 
+                         HeightRequest="60" 
+                         WidthRequest="60" 
+                         BackgroundColor="White">
+            </ImageButton>
+            
+            <ImageButton x:Name="MenuButtonFriends"
+                         HorizontalOptions="EndAndExpand"
+                         Source="MenuButtonFriends.png" 
+                         CornerRadius="10" 
+                         HeightRequest="60" 
+                         WidthRequest="60" 
+                         BackgroundColor="White">
+            </ImageButton>
+           
+
+        </StackLayout>
+
+
+    </Grid>
+    
+
+</ContentPage>
+
+<!--<ListView><ListView.ItemTemplate><DataTemplate></DataTemplate></ListView.ItemTemplate></ListView>-->

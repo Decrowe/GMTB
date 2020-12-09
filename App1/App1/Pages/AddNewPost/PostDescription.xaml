@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pages.AddNewPost.PostDescription">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <!--EditText field for Summary-->
+            <StackLayout x:Name="UploadSummary" Grid.Row="1" Margin="5" BackgroundColor="#505050" Orientation="Vertical"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Summary of Post"/>
+                <ScrollView>
+                    <Editor x:Name="SummaryEditor" AutoSize="TextChanges" BackgroundColor="#707070"/>
+                </ScrollView>
+                <Frame>
+                    <Label TextColor="Coral" x:Name="TextChanges"/>
+                </Frame>
+            </StackLayout>
+
+            <Button x:Name="UploadButton" Text="Now Share It!"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

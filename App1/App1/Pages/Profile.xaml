@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pages.Profile"
+             BackgroundColor="#303030">
+    <ContentPage.Content>
+        <StackLayout Padding="5">
+
+            <Frame x:Name="ProfileHeader" HeightRequest="100" BackgroundColor="#606060">
+
+                <Grid BackgroundColor="#606060">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame Grid.Column="0" BackgroundColor="#909090" 
+                           CornerRadius="50"
+                           Padding="0"
+                           IsClippedToBounds="True">
+                        <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"></Image>
+                    </Frame>
+                    <Frame Grid.Column="1" BackgroundColor="#909090">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding userName}">UserName</Label>
+                            <Label HorizontalOptions="Center" VerticalOptions="Center" >____________________</Label>
+                            <Label HorizontalOptions="Center" VerticalOptions="Center" >+Friend | Chat</Label>
+                        </StackLayout>
+                    </Frame>
+                    
+                </Grid>
+                
+            </Frame>
+            <Frame  x:Name="TrailInformations" BackgroundColor="#606060" HeightRequest="500" Margin="5">
+                
+            </Frame>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

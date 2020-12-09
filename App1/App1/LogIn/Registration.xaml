@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.LogIn.Registration">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#303030">
+
+            <Image Source="RegistrationBackground.jpg" Aspect="AspectFit" VerticalOptions="Center"></Image>
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Create Your Own Account" FontSize="20" FontAttributes="Bold"></Label>
+                <Label Text="Bikername?"></Label>
+                <Entry ></Entry>
+                <Label Text="Password"></Label>
+                <Entry></Entry>
+                <Label Text="Repeat Password"></Label>
+                <Entry></Entry>
+
+                <Button Text="Submit" BackgroundColor="#a18594"/>
+            </StackLayout>
+            
+
+        </StackLayout>
+        
+        
+        
+    </ContentPage.Content>
+</ContentPage>

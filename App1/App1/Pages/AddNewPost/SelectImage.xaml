@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pages.AddNewPost.SelectImage"
+             BackgroundColor="#303030">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <!--Preview of Trail-->
+            <Frame>
+                <Grid x:Name="Preview" Grid.Row="0" Margin="5" BackgroundColor="#505050">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="9*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+
+                    <Frame BackgroundColor="#141414" Margin="10">
+                        <Image x:Name="PhotoImage"></Image>
+                    </Frame>
+                    <StackLayout Grid.Row="1" Orientation="Horizontal">
+                        <Button x:Name="TakePhoto" Text="Take Photo"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                        <Button x:Name="PickPhoto" Text="Pick Photo"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                    </StackLayout>
+                
+                </Grid>
+            </Frame>
+             
+            <!--Back/Next Buttons-->
+            <StackLayout x:Name="BackUploadButtons" Grid.Row="1" Margin="5" Padding="5" BackgroundColor="#505050" Orientation="Horizontal">
+                <Button x:Name="BackButton" Text="Back" HorizontalOptions="StartAndExpand" />
+                <Button x:Name="NextButton" Text="Next Step" HorizontalOptions="EndAndExpand" />
+            </StackLayout>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
