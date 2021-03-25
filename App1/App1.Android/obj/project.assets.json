@@ -6567,24 +6567,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\walter1311\\.nuget\\packages\\": {},
+    "C:\\Users\\Lukas\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "C:\\Source\\GMTB\\App1\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\App1.Android.csproj",
-      "packagesPath": "C:\\Users\\walter1311\\.nuget\\packages\\",
-      "outputPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\obj\\",
+      "projectPath": "C:\\Source\\GMTB\\App1\\App1.Android\\App1.Android.csproj",
+      "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\GMTB\\App1\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\walter1311\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6598,8 +6598,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj": {
-              "projectPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj"
+            "C:\\Source\\GMTB\\App1\\App1\\App1.csproj": {
+              "projectPath": "C:\\Source\\GMTB\\App1\\App1\\App1.csproj"
             }
           }
         }

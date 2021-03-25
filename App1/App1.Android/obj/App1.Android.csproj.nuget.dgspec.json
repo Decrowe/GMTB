@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\App1.Android.csproj": {}
+    "C:\\Source\\GMTB\\App1\\App1.Android\\App1.Android.csproj": {}
   },
   "projects": {
-    "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\App1.Android.csproj": {
+    "C:\\Source\\GMTB\\App1\\App1.Android\\App1.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\App1.Android.csproj",
+        "projectUniqueName": "C:\\Source\\GMTB\\App1\\App1.Android\\App1.Android.csproj",
         "projectName": "App1.Android",
-        "projectPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\App1.Android.csproj",
-        "packagesPath": "C:\\Users\\walter1311\\.nuget\\packages\\",
-        "outputPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1.Android\\obj\\",
+        "projectPath": "C:\\Source\\GMTB\\App1\\App1.Android\\App1.Android.csproj",
+        "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GMTB\\App1\\App1.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\walter1311\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj": {
-                "projectPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj"
+              "C:\\Source\\GMTB\\App1\\App1\\App1.csproj": {
+                "projectPath": "C:\\Source\\GMTB\\App1\\App1\\App1.csproj"
               }
             }
           }
@@ -58,20 +58,20 @@
         }
       }
     },
-    "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj": {
+    "C:\\Source\\GMTB\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Source\\GMTB\\App1\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\App1.csproj",
-        "packagesPath": "C:\\Users\\walter1311\\.nuget\\packages\\",
-        "outputPath": "C:\\_SOURCE_\\TESTING\\App1\\App1\\App1\\obj\\",
+        "projectPath": "C:\\Source\\GMTB\\App1\\App1\\App1.csproj",
+        "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\GMTB\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\walter1311\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -84,6 +84,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -95,6 +96,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "MongoDB.Bson": {
               "target": "Package",
@@ -137,7 +139,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
